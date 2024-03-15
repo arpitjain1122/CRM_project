@@ -8,7 +8,9 @@ const [name, setName] = useState('');
 
 Handling Component State: When you need to keep track of some data that might change during the component's lifecycle, like a counter, toggle state, etc.
 
-const [count, setCount] = useState(0); const [isVisible, setIsVisible] = useState(true);
+const [count, setCount] = useState(0); 
+
+const [isVisible, setIsVisible] = useState(true);
 
 Fetching and Managing Data: When you fetch data from an API or any asynchronous operation, you can use useState to store and update the fetched data.
 
