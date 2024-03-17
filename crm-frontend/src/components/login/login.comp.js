@@ -9,7 +9,7 @@ export const LoginForm = ({
   email,
   password,
   handleOnSubmit,
-  formSwitcher,
+  formSwitcher,f
 }) => {
   {
     /* object destruction */

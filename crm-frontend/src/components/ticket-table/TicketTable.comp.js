@@ -16,7 +16,7 @@ export const TicketTable = ({ tickets }) => {
       <tbody>
         {tickets.length ? (
           tickets.map((row) => (
-            <tr>
+            <tr key={row._id}>
               <td>{row.id}</td>
               <td>{row.subject}</td>
               <td>{row.status}</td>
